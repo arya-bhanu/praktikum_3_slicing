@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:praktikum_3_slicing/login_page.dart';
+import 'package:praktikum_3_slicing/frame_1.dart';
+// import 'package:praktikum_3_slicing/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,8 +12,15 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: LoginPage(scaffoldTitle: "Hello World"),
+    return MaterialApp(
+      home: const Frame1(),
+      theme: ThemeData(
+        scaffoldBackgroundColor: Colors.transparent,
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+        ),
+      ),
     );
   }
 }
