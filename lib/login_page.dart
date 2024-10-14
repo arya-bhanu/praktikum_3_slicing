@@ -12,7 +12,7 @@ class LoginPage extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Container(
-          decoration: const BoxDecoration(color: Colors.purple),
+          decoration: const BoxDecoration(color: Color(0xFF733781)),
           constraints: BoxConstraints(
               minWidth: MediaQuery.of(context).size.width,
               maxHeight: MediaQuery.of(context).size.height),
@@ -83,6 +83,8 @@ class LoginPage extends StatelessWidget {
                             borderSide: const BorderSide(
                                 width: 1.0, color: Colors.white),
                           ),
+                          filled: true,
+                          fillColor: const Color(0xFF8B4F99),
                           labelText: "Email Address",
                           labelStyle: const TextStyle(color: Colors.white),
                           contentPadding: const EdgeInsets.symmetric(
@@ -110,6 +112,8 @@ class LoginPage extends StatelessWidget {
                             borderSide: const BorderSide(
                                 width: 1.0, color: Colors.white),
                           ),
+                          filled: true,
+                          fillColor: const Color(0xFF8B4F99),
                           labelText: "Password",
                           labelStyle: const TextStyle(color: Colors.white),
                           contentPadding: const EdgeInsets.symmetric(
