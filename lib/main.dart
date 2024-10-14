@@ -15,12 +15,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: const Frame1(),
       theme: ThemeData(
-        scaffoldBackgroundColor: Colors.transparent,
-        appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.transparent,
-          elevation: 0,
-        ),
-      ),
+          scaffoldBackgroundColor: Colors.transparent,
+          appBarTheme: const AppBarTheme(
+            backgroundColor: Colors.transparent,
+            elevation: 0,
+          ),
+          fontFamily: "Roboto"),
     );
   }
 }
