@@ -48,8 +48,10 @@ class Frame1 extends StatelessWidget {
                         borderSide:
                             const BorderSide(width: 1.0, color: Colors.white),
                       ),
+                      filled: true,
+                      fillColor: Colors.white,
                       labelText: "Email Address",
-                      labelStyle: const TextStyle(color: Colors.white),
+                      labelStyle: const TextStyle(color: Color(0xFF767676)),
                       contentPadding: const EdgeInsets.symmetric(
                           horizontal: 30, vertical: 15),
                       enabledBorder: OutlineInputBorder(
@@ -75,8 +77,8 @@ class Frame1 extends StatelessWidget {
                         borderSide:
                             const BorderSide(width: 1.0, color: Colors.white),
                       ),
-                      labelText: "Email Address",
-                      labelStyle: const TextStyle(color: Colors.white),
+                      labelText: "Password",
+                      labelStyle: const TextStyle(color: Color(0xFF767676)),
                       contentPadding: const EdgeInsets.symmetric(
                           horizontal: 30, vertical: 15),
                       enabledBorder: OutlineInputBorder(
@@ -84,6 +86,8 @@ class Frame1 extends StatelessWidget {
                         borderSide:
                             const BorderSide(width: 1.0, color: Colors.white),
                       ),
+                      filled: true,
+                      fillColor: Colors.white,
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(50.0),
                         borderSide:
